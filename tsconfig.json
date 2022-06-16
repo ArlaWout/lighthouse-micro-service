@@ -1,5 +1,7 @@
 {
-  "compilerOptions": {
-    "sourceMap": true
-  }
+	"compilerOptions": {
+		"sourceMap": true,
+		"types": ["jest"]
+	},
+	"include": ["src/**/*", "src/js", "static/js"]
 }
